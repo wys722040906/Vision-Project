@@ -1,0 +1,5 @@
+# ninja log v5
+0	192	1729769093783392322	CMakeFiles/CoordinateSystemConversion.dir/test1.cpp.o	33c0accacbf99242
+0	165	1729768997775395165	CMakeFiles/CoordinateSystemConversion.dir/test2.cpp.o	98791762739cbddb
+1	180	1729769263023387310	CMakeFiles/CoordinateSystemConversion.dir/test3.cpp.o	684910e29f928c82
+180	229	1729769263071387309	CoordinateSystemConversion	b1ff1b5ae6c0b55

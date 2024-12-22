@@ -1,0 +1,29 @@
+
+
+抛物线展示
+--双解判定--速度+加速度--根据后期加的点的增长趋势确定断点
+
+当球在原地被不稳定识别时，抛物线乱飞--预测时机限制
+
+
+加速:
+1. OpenCV DNN 模块加载 ONNX -- 线程并行处理优化
+2. OpenCV CUDA GPU 推理加速 
+3. pt TensorRT 转 .engine DNN 调用CUDA加速
+4. OpenCV + OpenMP 并行处理
+5. 优化 NMS 减少冗余框计算时间
+初步部署：
+使用 Ultralytics 的 YOLO 模型直接加载权重和推理。
+优势：简单高效，快速部署。
+进一步加速：
+转换为 ONNX 格式后使用 ONNX Runtime。
+优势：兼容性强，支持多平台。
+高性能推理：
+利用 TensorRT 加速推理。
+优势：极致优化，适合 NVIDIA GPU。
+  
+ros2部署
+
+ros2 gazebo
+
+

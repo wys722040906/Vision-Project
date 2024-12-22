@@ -1,0 +1,67 @@
+%YAML:1.0
+---
+#摄像头参数 + pnp算法参数
+image_width: 1280
+image_height: 720
+camera_matrix: !!opencv-matrix
+  rows: 3
+  cols: 3
+  dt: d
+  data: [315.89,    0.0     , 320.98,
+           0.0     , 383.05, 239.10 ,
+           0.0     ,   0.0     ,   1.0     ]
+distortion_coefficients: !!opencv-matrix
+  rows: 1
+  cols: 5
+  dt: d
+  data: [0.039190, -0.051096, 0.003270, -0.000430, 0.000000]
+width: 0.083
+hight: 0.110
+pnpMethod: 7
+ball_radius: 0.040
+#卡尔曼参数
+stateSize: 6
+measurementSize: 3
+dt: 0.05
+R_value: 0.1  #测量噪声协方差系数
+Q_value: 0.1  #过程噪声协方差系数
+#光流跟踪
+winSize: 15
+maxLevel: 2
+maxCount: 10  #最大迭代次数
+minEps: 0.03  #参数变化最小精度
+#颜色识别
+lower_h: 27
+lower_s: 0
+lower_v: 255
+upper_h: 32
+upper_s: 255
+upper_v: 255
+ErodeIter: 0
+DialteIter: 0
+OpenIter: 0
+CloseIter: 0
+CannyLowThresh: 50
+CannyHighThresh: 150
+white_balance_flag: 0
+auto_wb_flag: 0
+clahe_flag: 0
+auto_clahe_flag: 0
+min_area: 1000
+max_area: 2000000
+min_rabbish_length_width_ration: 0.4
+max_rabbish_length_width_ration: 0.8
+#圆检测
+hough_dp: 2
+hough_min_dist: 200
+hough_param1: 50
+hough_param2: 29
+hough_min_radius: 20
+hough_max_radius: 100
+circle_area_thresh: 200
+circle_ratio_thresh: 40
+point_num: 8
+
+
+
+

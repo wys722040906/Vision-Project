@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/wys/Desktop/Project/VisionProject/坐标系转换/build",
+  "command": "/usr/bin/clang++  -Wall -Wextra -Wpedantic -Werror -g -g -std=gnu++11 -o CMakeFiles/CoordinateSystemConversion.dir/test3.cpp.o -c /home/wys/Desktop/Project/VisionProject/坐标系转换/test3.cpp",
+  "file": "/home/wys/Desktop/Project/VisionProject/坐标系转换/test3.cpp"
+}
+]

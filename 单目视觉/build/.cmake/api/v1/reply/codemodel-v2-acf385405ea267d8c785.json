@@ -1,0 +1,217 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "detect",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-detect-Release-b71abacb4c0e7820b4af.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "detect",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "app",
+					"jsonFile" : "directory-app-Release-94c5f210ca04b1028ae5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "app",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "track",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-track-Release-efa0d355f1b27d1a6a00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 3,
+					"source" : "track",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "predict",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-predict-Release-73d67a76cb2ded8ce520.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 4,
+					"source" : "predict",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "MyWorkspace"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "detect",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "app",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "track",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "predict",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "app::@5f5a17c01335469806cb",
+					"jsonFile" : "target-app-Release-8cc7fe286bde1eac6e7c.json",
+					"name" : "app",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "detect::@72d49d30b7adff30767e",
+					"jsonFile" : "target-detect-Release-004953cefcb72ffd766d.json",
+					"name" : "detect",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "predict::@e7b145581a37d5466bfe",
+					"jsonFile" : "target-predict-Release-794772403e0435fcfaff.json",
+					"name" : "predict",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "predict_autogen::@e7b145581a37d5466bfe",
+					"jsonFile" : "target-predict_autogen-Release-a1d6a4efd1d395300e16.json",
+					"name" : "predict_autogen",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "predict_autogen_timestamp_deps::@e7b145581a37d5466bfe",
+					"jsonFile" : "target-predict_autogen_timestamp_deps-Release-793790475dfcbaee5e9a.json",
+					"name" : "predict_autogen_timestamp_deps",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "track::@3622484a61957f354c11",
+					"jsonFile" : "target-track-Release-c7b33a85377e824fc2a6.json",
+					"name" : "track",
+					"projectIndex" : 3
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/wys/Desktop/Project/VisionProject/\u5355\u76ee\u89c6\u89c9/build",
+		"source" : "/home/wys/Desktop/Project/VisionProject/\u5355\u76ee\u89c6\u89c9"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

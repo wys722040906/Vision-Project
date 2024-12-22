@@ -1,0 +1,3 @@
+/home/wys/Desktop/Project/VisionProject/坐标系转换/build/CMakeFiles/CoordinateSystemConversion.dir
+/home/wys/Desktop/Project/VisionProject/坐标系转换/build/CMakeFiles/edit_cache.dir
+/home/wys/Desktop/Project/VisionProject/坐标系转换/build/CMakeFiles/rebuild_cache.dir

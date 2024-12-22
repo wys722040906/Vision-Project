@@ -1,0 +1,10 @@
+标准pnp算法：
+    SOLVEPNP_ITERATIVE  //最少4点 传统迭代 少量点 一般应用 稳定
+    SOLVEPNP_EPNP   // 最少4点 大数据 高效 精度低
+    SOLVEPNP_P3P    // 3个点 快速
+    SOLVEPNP_AP3P   // 3个点 改进 高精度
+    SOLVEPNP_DLS    // 最少6点 多个点 噪声敏感 稳定性差
+    SOLVEPNP_UPNP   // 最少4点 非迭代 点数大于4 既定几何形状
+    SOLVEPNP_SQPNP  // 最少4点 高进度 高效
+共面pnp算法：
+    SOLVEPNP_IPPE  //最少4点 高精度 小误差 更稳定 平面标定 二维码识别

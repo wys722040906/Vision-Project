@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/wys/Desktop/Project/VisionProject/卡尔曼滤波/build",
+  "command": "/usr/bin/clang++ -I/home/wys/Desktop/Project/VisionProject/卡尔曼滤波/include -isystem /usr/local/include/eigen3  -std=c++17 -g -o CMakeFiles/KalmanFilter.dir/test5.cpp.o -c /home/wys/Desktop/Project/VisionProject/卡尔曼滤波/test5.cpp",
+  "file": "/home/wys/Desktop/Project/VisionProject/卡尔曼滤波/test5.cpp"
+}
+]
